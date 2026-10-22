@@ -37,6 +37,7 @@ namespace Exam
                 Console.WriteLine("   " + a);
             }
         }
+
         public object Clone()
         {
             Question copy = (Question)MemberwiseClone();
